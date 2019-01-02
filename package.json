@@ -1,6 +1,6 @@
 {
   "name": "gulp-ws-server",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "description": "A simple gulp websocket server",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,6 @@
   },
   "keywords": [
     "ws",
-    "wss",
     "websocket",
     "wsclient",
     "wsserver",
@@ -27,5 +26,8 @@
   "dependencies": {
     "fancy-log": "^1.3.3",
     "ws": "^6.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
   }
 }
