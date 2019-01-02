@@ -1,5 +1,5 @@
 # gulp-ws-server
-A simple gulp websocket server.
+A simple gulp (> 4.x) websocket server.
 
 #### Installation
 ```$xslt
