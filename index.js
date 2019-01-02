@@ -1,7 +1,7 @@
 const webSocket = require('ws');
+const log = require('fancy-log');
 
 const defaultConfig = {
-  url: 'ws://localhost',
   port: '4000',
   path: '/ws'
 };
@@ -16,16 +16,14 @@ function send(wss, message) {
 
 function gws(config) {
   config = Object.assign(defaultConfig, config);
-  let wss = new webSocket(config, _ => {
-
-  });
+  let wss = new webSocket.Server(config, _ => {});
 
   wss.on('connection', ws => {
-    console.log('starting connection', ws)
+    log('starting connection')
   });
 
   wss.on('error', err => {
-    console.log(err);
+    log.error(err);
   });
 
   wss.send = send.bind(wss, wss);
