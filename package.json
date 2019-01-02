@@ -24,7 +24,7 @@
     "url": "https://github.com/i07/gulp-ws-server/issues"
   },
   "homepage": "https://github.com/i07/gulp-ws-server#readme",
-  "devDependencies": {
+  "dependencies": {
     "ws": "^6.1.2"
   }
 }
