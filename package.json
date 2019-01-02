@@ -1,0 +1,30 @@
+{
+  "name": "gulp-ws-server",
+  "version": "1.0.0",
+  "description": "A simple gulp websocket server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i07/gulp-ws-server.git"
+  },
+  "keywords": [
+    "ws",
+    "wss",
+    "websocket",
+    "wsclient",
+    "wsserver",
+    "gulp"
+  ],
+  "author": "M. Donkers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i07/gulp-ws-server/issues"
+  },
+  "homepage": "https://github.com/i07/gulp-ws-server#readme",
+  "devDependencies": {
+    "ws": "^6.1.2"
+  }
+}
